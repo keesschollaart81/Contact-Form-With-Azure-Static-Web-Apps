@@ -14,15 +14,15 @@
     <form method="post" action="api/contact?redirectUrl=/thank-you.html" method="post" id="contact-form">
 
       <b>Name:</b><br />
-      <input type="text" name="name" /><br /><br />
+      <input type="text" name="name" required /><br /><br />
 
       <b>Email:</b><br />
-      <input type="text" name="email" /><br /><br />
+      <input type="email" name="email" /><br /><br />
 
       <b>Text:</b><br />
       <textarea name="text"></textarea><br /><br />
 
-      <button class="g-recaptcha" data-sitekey="<<yoursitekey>>" data-callback='onSubmit'
+      <button class="g-recaptcha" data-sitekey="<<your sitekey>>" data-callback='onSubmit'
         data-action='submit'>Submit</button>
     </form>
   </main>

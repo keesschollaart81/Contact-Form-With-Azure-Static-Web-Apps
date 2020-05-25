@@ -31,7 +31,7 @@ module.exports = async function (context, req) {
     return;
 
     function getEmail(formData) {
-        let body = ejs.render(fs.readFileSync("mailtemplate.ejs", 'utf-8'), formData, {})
+        let body = ejs.render(fs.readFileSync("ContactForm/mailtemplate.ejs", 'utf-8'), formData, {})
         var message = {
             subject: "Contact Form was submitted",
             content: [{
