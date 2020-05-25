@@ -17,4 +17,5 @@ This codebase shows how to build a simple contact form with Azure Static Web App
 - After first deployment add configuration keys via the Azure Portal:
 
   `RecaptchaKey`: the secret key from reCAPTCHA
+  
   `SendGridKey`: the secret from SendGrid allowing you to send mails via their API
